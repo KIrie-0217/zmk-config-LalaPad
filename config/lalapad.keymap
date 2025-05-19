@@ -69,6 +69,7 @@
 / {
     behaviors {
         // Encoder to Mouse Scroll
+
         scroll_up_down: sensor_scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
@@ -234,11 +235,11 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &mkp MB3  &trans  &trans  &trans     &trans     &trans  &trans
-                &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mkp MB3  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+                &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans
             >;
         };
 
