@@ -216,7 +216,7 @@
 
             bindings = <
 &trans  &kp GRAVE    &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp PERCENT  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &kp LEFT_PARENTHESIS
-&trans  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &trans       &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &kp RIGHT_PARENTHESIS
+&trans  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp SQT      &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &kp RIGHT_PARENTHESIS
 &trans  &trans       &trans           &trans         &kp MINUS     &kp EQUAL    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_8  &kp KP_NUMBER_0  &trans
 &trans  &trans       &trans           &trans         &trans        &trans       &trans  &trans           &trans           &trans           &trans           &trans
                      &trans           &trans         &trans        &trans       &trans  &trans           &trans           &trans
@@ -251,11 +251,11 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans     &trans
+                &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
             >;
         };
 
